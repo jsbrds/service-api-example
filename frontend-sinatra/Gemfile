@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+
+gem 'puma'
+gem 'rack-test'
+gem 'sinatra'
+gem 'bootstrap-sass', '~> 3.4.1'
