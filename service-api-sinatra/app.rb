@@ -33,7 +33,7 @@ post '/users' do
     end
   end
   status 200
-  redirect "http://127.0.0.1:4567/"
+  redirect "http://134.122.4.164/"
 end
 
 
@@ -43,6 +43,6 @@ post '/users/destroy' do
     User.delete(user)
   end
   status 200
-  redirect "http://127.0.0.1:4567/"
+  redirect "http://134.122.4.164/"
 end
 
